@@ -24,11 +24,19 @@ prey
 
 
 
+
+each animal  will have a set behaviour ie how often they eat and how often the reproduce etc.
+
+
 main function
 
 call function that creates the animals using user input to determine number of predators and number of prey and time frame.
 
 
+
+stretch goal:
+Currently the animals will have static behaviour. if we have time we will hopefully be able to allow the user the change the animals behavior
+eg rabbits that reproduce 2 times a day etc.
 
 
 
