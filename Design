@@ -1,0 +1,34 @@
+Design
+
+
+
+animal population simulator
+
+user inputs number of predators, prey and time frame, then the program simulates the fluctions in the population over time 
+and then outputs the changes in the population and the final population.
+
+
+Classes:
+
+animal
+eat
+breed
+age
+
+
+predator
+hunt (polymorphism of eat)
+
+
+prey
+
+
+
+main function
+
+call function that creates the animals using user input to determine number of predators and number of prey and time frame.
+
+
+
+
+
