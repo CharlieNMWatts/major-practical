@@ -14,6 +14,6 @@ using namespace std;
 int main(){
     cout << "hello" << endl;
     
-    xq
+    
     return 0;
 }
