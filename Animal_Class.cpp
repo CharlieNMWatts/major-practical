@@ -11,5 +11,3 @@ using namespace std;
 
 
 Animal_Class::Animal_Class(){
-	cout << "hello" << endl;
-};
