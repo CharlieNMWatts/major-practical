@@ -25,6 +25,10 @@ Animal_Class::Animal_Class(string a, string s){
 Animal_Class::get_animal(string a){				//Gets animal name
 	string animal;
 }
+<<<<<<< refs/remotes/origin/master
 Animal::get_species(string s){					//Gets Species name
+=======
+Animal_Class::get_species(string s){
+>>>>>>> Auto stash before merge of "master" and "origin/master"
 	string species;
 }
