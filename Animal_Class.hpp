@@ -9,8 +9,19 @@
 #define Animal_Class_hpp
 
 #include <stdio.h>
+#include <iostream>
+class Animal_Class
+{
+public:
+	Animal_Class();
+	~Animal_Class();
 
 
+
+private:
+
+	
+};
 
 
 

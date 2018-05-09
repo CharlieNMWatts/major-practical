@@ -7,12 +7,15 @@
 
 #include <stdio.h>
 #include <iostream>
+#include "Animal_Class.hpp"
 
 using namespace std;
 
 
 int main(){
     cout << "hello" << endl;
+    Animal_Class a;
+    
     
     
     return 0;
