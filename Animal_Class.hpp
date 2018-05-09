@@ -7,20 +7,27 @@
 
 #ifndef Animal_Class_hpp
 #define Animal_Class_hpp
-
 #include <stdio.h>
 #include <iostream>
-class Animal_Class
-{
+
+using namespace std;
+
+class Animal_Class{
 public:
 	Animal_Class();
+
+
+
+
+
+
 	~Animal_Class();
 
 
 
 private:
-
-	
+	string animal;
+	string species;
 };
 
 

@@ -11,7 +11,7 @@ using namespace std;
 
 
 Animal_Class::Animal_Class(){					//declares animal names and species 
-	sting a ="?";
+	string a ="?";
 	string s= "?";
 	animal = a;
 	species = s;
@@ -32,3 +32,5 @@ Animal_Class::get_species(string s){
 >>>>>>> Auto stash before merge of "master" and "origin/master"
 	string species;
 }
+
+Animal_Class::~Animal_Class(){}
