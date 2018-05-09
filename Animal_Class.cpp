@@ -11,3 +11,20 @@ using namespace std;
 
 
 Animal_Class::Animal_Class(){
+	sting a ="?";
+	string s= "?";
+	animal = a;
+	species = s;
+}
+
+Animal_Class::Animal_Class(string a, string s){
+	animal = a;
+	species = s;
+}
+
+Animal_Class::get_animal(string a){
+	string animal;
+}
+Animal::get_species(string s){
+	string species;
+}
