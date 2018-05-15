@@ -1,6 +1,6 @@
 //
 //  Animal_Class.hpp
-//  
+//
 //
 //  Created by Charlie Watts on 2/5/18.
 //
@@ -25,14 +25,14 @@ age
  */
 
 
-class Animal_Class 
+class Animal_Class
 {
 public:
 	Animal_Class(){
 		cout << "got to animal class contructor in header file" << endl;
 
 	};// removed contructor because of error
-	
+
 		void eat();
 		void bread();
 		void die();

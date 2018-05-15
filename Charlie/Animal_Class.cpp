@@ -1,16 +1,17 @@
 //
 //  Animal_Class.cpp
-//  
+//
 //
 //  Created by Charlie Watts on 2/5/18.
 //
 #include <iostream>
 #include "Animal_Class.hpp"
 #include <stdio.h>
+#include "Prey_Class.hpp"
 
 using namespace std;
 // keep getting redefintion error. comment contructor out.
-/* 
+/*
 Animal_Class::Animal_Class(){
 	cout << "got to animal class constructor" << endl;
 
