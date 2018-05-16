@@ -11,10 +11,7 @@ using namespace std;
 class Prey_Class: public Animal_Class
 {
 public:
-	Prey_Class(){
-
-	};
-
+	Prey_Class();
 	~Prey_Class();
 
 };

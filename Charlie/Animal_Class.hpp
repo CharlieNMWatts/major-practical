@@ -28,10 +28,7 @@ age
 class Animal_Class
 {
 public:
-	Animal_Class(){
-		cout << "got to animal class contructor in header file" << endl;
-
-	};// removed contructor because of error
+	Animal_Class();// removed contructor because of error
 
 		void eat();
 		void bread();

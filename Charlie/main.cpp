@@ -9,6 +9,7 @@
 #include <iostream>
 #include "Animal_Class.hpp"
 #include "Prey_Class.hpp"
+#include "Predator_Class.hpp"
 
 using namespace std;
 
@@ -16,17 +17,18 @@ using namespace std;
 int main(){
     cout << "hello" << endl;
     Animal_Class a;
- //   Prey_Class p;
+    Prey_Class p;
+    Predator_Class x;
 
      int t;
      cout << "how much time would you like?"<< endl;
-     cout << "key binding check" << endl;
+
 cin >> t;
 
 
 
 
-p
+
 
 
 // could use a switch statement to alter

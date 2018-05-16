@@ -11,26 +11,14 @@ using namespace std;
 
 
 Animal_Class::Animal_Class(){					//declares animal names and species 
-	string a ="?";
+	/*string a ="?";
 	string s= "?";
 	animal = a;
 	species = s;
+	*/
+cout << "Animal class function" << endl;
 }
 
-Animal_Class::Animal_Class(string a, string s){
-	animal = a;
-	species = s;
-}
 
-Animal_Class::get_animal(string a){				//Gets animal name
-	string animal;
-}
-<<<<<<< refs/remotes/origin/master
-Animal::get_species(string s){					//Gets Species name
-=======
-Animal_Class::get_species(string s){
->>>>>>> Auto stash before merge of "master" and "origin/master"
-	string species;
-}
 
-Animal_Class::~Animal_Class(){}
+Animal_Class::~Animal_Class(){};

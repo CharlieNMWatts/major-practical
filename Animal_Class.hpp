@@ -12,23 +12,16 @@
 
 using namespace std;
 
-class Animal_Class{
+class Animal_Class
+{
 public:
 	Animal_Class();
-
-
-
-
-
-
 	~Animal_Class();
-
-
-
 private:
-	string animal;
-	string species;
+
 };
+
+
 
 
 
