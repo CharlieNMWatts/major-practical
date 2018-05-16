@@ -10,20 +10,26 @@
 #include "Animal_Class.hpp"
 #include "Prey_Class.hpp"
 #include "Predator_Class.hpp"
+#include "Rabbit_Class.hpp"
+#include "Kangaroo_Class.hpp"
+#include "Fox_Class.hpp"
+#include "Dingo_Class.hpp"
 
 using namespace std;
 
 
 int main(){
-    cout << "hello" << endl;
+    cout << "hello from main function" << endl;
     Animal_Class a;
     Prey_Class p;
     Predator_Class x;
+    Rabbit_Class s;
+    Kangaroo_Class k;
+    Fox_Class f;
+    Dingo_Class d;
 
-     int t;
-     cout << "how much time would you like?"<< endl;
 
-cin >> t;
+
 
 
 

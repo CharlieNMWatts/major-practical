@@ -13,7 +13,7 @@ using namespace std;
 // keep getting redefintion error. comment contructor out.
 
 Animal_Class::Animal_Class(){
-	cout << "got to animal class constructor" << endl;
+cout << "got to animal class constructor" << endl;
 
 }
 
@@ -35,5 +35,5 @@ void Animal_Class::get_population(){
 
 
 Animal_Class::~Animal_Class(){
-	cout << "animal class destructor" << endl;
+//	cout << "animal class destructor" << endl;
 };
