@@ -11,6 +11,9 @@ Fox_Class::Fox_Class() :Predator_Class(){
 	cout << "Fox_Class contructor" << endl;
 
 };
+	void Predator_Class::eat(){
+		cout << "the fox ate" << endl;
+	}
 
 Fox_Class::~Fox_Class(){
 	cout << "Fox_Class destructor" << endl;

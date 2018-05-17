@@ -9,6 +9,10 @@ Prey_Class::Prey_Class() :Animal_Class() {
 	cout <<"prey class constructor" << endl;
 };
 
+void Prey_Class::eat(){
+	cout <<"the animal ate" << endl;
+};
+
 Prey_Class::~Prey_Class(){
 	cout << "prey class destructor" << endl;
 };

@@ -12,6 +12,7 @@ class Rabbit_Class :public Prey_Class
 {
 public:
 	Rabbit_Class();
+		void eat();
 	~Rabbit_Class();
 	
 };

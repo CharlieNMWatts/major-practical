@@ -1,9 +1,4 @@
-//
-//  Animal_Class.hpp
-//
-//
-//  Created by Charlie Watts on 2/5/18.
-//
+
 
 #ifndef Animal_Class_hpp
 #define Animal_Class_hpp
@@ -11,32 +6,21 @@
 #include <iostream>
 
 using namespace std;
-/*Animal_Class:
 
-functions:
-	eat
-	bread
-	die
-
-varibles
-age
-
-
- */
 
 
 class Animal_Class
 {
 public:
-	Animal_Class();// removed contructor because of error
+	//virtual Animal_Class();// removed contructor because of error
 
-		void eat();
-		void bread();
-		void die();
+		virtual void eat();
+		 void bread();
+		 void die();
 		void set_population(int a);
 		void get_population();
 
-	~Animal_Class();
+	virtual ~Animal_Class() =0;
 private:
 	int age;
 	double population;

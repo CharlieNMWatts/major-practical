@@ -11,6 +11,7 @@ class Dingo_Class : Predator_Class
 {
 public:
 	Dingo_Class();
+		void eat();
 	~Dingo_Class();
 	
 };

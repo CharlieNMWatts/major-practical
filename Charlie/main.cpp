@@ -20,13 +20,17 @@ using namespace std;
 
 int main(){
     cout << "hello from main function" << endl;
-    Animal_Class a;
-    Prey_Class p;
-    Predator_Class x;
-    Rabbit_Class s;
-    Kangaroo_Class k;
-    Fox_Class f;
-    Dingo_Class d;
+    
+    // Prey_Class p;
+    // Predator_Class x;
+    // Rabbit_Class s;
+    // Kangaroo_Class k;
+    // Fox_Class f;
+    // Dingo_Class d;
+
+
+    //	s.Prey_Class::eat();
+    //	k.Prey_Class::eat();
 
 
 
@@ -35,9 +39,5 @@ int main(){
 
 
 
-
-
-// could use a switch statement to alter
-// the values of the population
-// rather then a for loop for everthing
+return 0;
  }

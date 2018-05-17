@@ -12,6 +12,7 @@ class Prey_Class: public Animal_Class
 {
 public:
 	Prey_Class();
+		void eat();
 	~Prey_Class();
 
 };
