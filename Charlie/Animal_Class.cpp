@@ -34,6 +34,4 @@ void Animal_Class::get_population(){
 }
 
 
-Animal_Class::~Animal_Class(){
-cout << "animal class destructor" << endl;
-};
+//Animal_Class::~Animal_Class(){};

@@ -10,7 +10,7 @@ Kangaroo_Class::Kangaroo_Class() :Prey_Class(){
 	cout << "Kangaroo_Class constructor" << endl;
 
 };
-void Prey_Class::eat(){
+void Animal_Class::eat(){
 	cout << "the kangaroo ate" << endl;
 };
 

@@ -12,15 +12,15 @@ using namespace std;
 class Animal_Class
 {
 public:
-	//virtual Animal_Class();// removed contructor because of error
+	//virtual Animal_Class(){};// removed contructor because of error
 
-		virtual void eat();
+		virtual void eat();;
 		 void bread();
 		 void die();
 		void set_population(int a);
 		void get_population();
 
-	virtual ~Animal_Class() =0;
+	 ~Animal_Class(){};
 private:
 	int age;
 	double population;

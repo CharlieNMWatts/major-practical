@@ -12,7 +12,7 @@ Rabbit_Class::Rabbit_Class() :Prey_Class(){
 	cout << "rabbit class constructor" << endl;
 
 };
-void Prey_Class::eat(){
+void Animal_Class::eat(){
 	cout << "the rabbit ate" << endl;
 };
 

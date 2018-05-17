@@ -10,7 +10,7 @@ Dingo_Class::Dingo_Class() :Predator_Class(){
 	cout << "Dingo_Class constructor" << endl;
 };
 
-void Predator_Class::eat(){
+void Animal_Class::eat(){
 	cout << "the dingo ate" << endl;
 }
 
