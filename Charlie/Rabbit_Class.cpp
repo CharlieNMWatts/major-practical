@@ -7,15 +7,15 @@
 using namespace std;
 
 
-Rabbit_Class::Rabbit_Class() :Prey_Class(){
+Rabbit_Class::Rabbit_Class() : Prey_Class() {
 
 	cout << "rabbit class constructor" << endl;
 
 };
-void Animal_Class::eat(){
+void Animal_Class::eat() {
 	cout << "the rabbit ate" << endl;
 };
 
-Rabbit_Class::~Rabbit_Class(){
+Rabbit_Class::~Rabbit_Class() {
 	cout << "rabbit class destructor" << endl;
 };

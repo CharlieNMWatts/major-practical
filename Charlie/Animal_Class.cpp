@@ -17,21 +17,25 @@ cout << "got to animal class constructor" << endl;
 
 }
 */
-void Animal_Class::eat(){}
-void Animal_Class::bread(){
+void Animal_Class::eat() {
+	//deliberatly empty
+};
+
+
+void Animal_Class::bread() {
 	population++;
-}
-void Animal_Class::die(){
+};
+void Animal_Class::die() {
 	population--;
-}
-void Animal_Class::set_population(int a){
+};
+void Animal_Class::set_population(int a) {
 	population = a;
-}
-void Animal_Class::get_population(){
+};
+void Animal_Class::get_population() {
 
 	cout << "The animal population is: " << population << endl;
 	//return 0;
-}
+};
 
 
 //Animal_Class::~Animal_Class(){};

@@ -8,12 +8,12 @@
 
 using namespace std;
 
-class Rabbit_Class :public Prey_Class
+class Rabbit_Class : public Prey_Class
 {
 public:
 	Rabbit_Class();
-		void eat();
+	virtual void eat();
 	~Rabbit_Class();
-	
+
 };
 #endif

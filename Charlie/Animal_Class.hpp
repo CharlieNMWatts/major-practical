@@ -14,13 +14,13 @@ class Animal_Class
 public:
 	//virtual Animal_Class(){};// removed contructor because of error
 
-		virtual void eat();;
+		virtual void eat();
 		 void bread();
 		 void die();
 		void set_population(int a);
 		void get_population();
 
-	 ~Animal_Class(){};
+	virtual ~Animal_Class(){ };
 private:
 	int age;
 	double population;

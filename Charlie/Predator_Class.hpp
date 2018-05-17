@@ -8,11 +8,8 @@ using namespace std;
 class Predator_Class: public Animal_Class{
 public:
     Predator_Class();
-    	void eat();
+    virtual	void eat();
     ~Predator_Class();
-
-
-
 
 
 };

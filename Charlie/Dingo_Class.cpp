@@ -6,14 +6,14 @@
 
 using namespace std;
 
-Dingo_Class::Dingo_Class() :Predator_Class(){
+Dingo_Class::Dingo_Class() : Predator_Class() {
 	cout << "Dingo_Class constructor" << endl;
 };
 
-void Animal_Class::eat(){
+void Animal_Class::eat() {
 	cout << "the dingo ate" << endl;
 }
 
-Dingo_Class::~Dingo_Class(){
+Dingo_Class::~Dingo_Class() {
 	cout << "Dingo_Class destructor" << endl;
 };

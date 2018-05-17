@@ -21,12 +21,12 @@ using namespace std;
 int main(){
     cout << "hello from main function" << endl;
     
-    // Prey_Class p;
-    // Predator_Class x;
-    // Rabbit_Class s;
-    // Kangaroo_Class k;
-    // Fox_Class f;
-    // Dingo_Class d;
+    //Prey_Class p;
+    //Predator_Class x;
+    Rabbit_Class s;
+    Kangaroo_Class k;
+    Fox_Class f;
+    Dingo_Class d;
 
 
     //	s.Prey_Class::eat();

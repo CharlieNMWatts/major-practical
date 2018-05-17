@@ -11,7 +11,7 @@ class Fox_Class : Predator_Class
 {
 public:
 	Fox_Class();
-		void eat();
+		virtual void eat();
 	~Fox_Class();
 	
 };

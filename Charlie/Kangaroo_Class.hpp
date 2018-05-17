@@ -11,7 +11,7 @@ class Kangaroo_Class: public Prey_Class
 {
 public:
 	Kangaroo_Class();
-		void eat();
+		virtual void eat();
 	~Kangaroo_Class();
 	
 };
