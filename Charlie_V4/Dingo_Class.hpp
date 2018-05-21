@@ -12,7 +12,13 @@ class Dingo_Class :  public Predator_Class
 public:
 	Dingo_Class();
 		 void eat();
+		 
+		 void set_dingo_population(int d);
+		 int get_dingo_population();
 	~Dingo_Class();
+
+private:
+	int dingo_population;
 
 };
 

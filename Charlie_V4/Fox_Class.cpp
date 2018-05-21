@@ -14,7 +14,12 @@ Fox_Class::Fox_Class() :Predator_Class(){
 	void Fox_Class::eat(){
 		
 	}
-
+	void Fox_Class::set_fox_population(int f){
+		fox_population = f;
+	}
+	int Fox_Class::get_fox_population(){
+		return fox_population;
+	}
 Fox_Class::~Fox_Class(){
 
 };

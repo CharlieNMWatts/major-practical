@@ -17,13 +17,13 @@ public:
 		virtual void eat();
 		void bread();
 		void die();
-		virtual void set_population();
-		virtual void get_population();
+		 void set_population(int pop);
+		void get_population();
 
 	// ~Animal_Class(){ };
 protected:
 	int age;
-	int population = Predator_Population + Prey_Population;
+	int population;
 
 
 

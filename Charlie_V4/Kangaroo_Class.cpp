@@ -14,6 +14,12 @@ void Kangaroo_Class::eat() {
 
 };
 
+void Kangaroo_Class::set_kangaroo_population(int k){
+	kangroo_population = k;
+};
+int Kangaroo_Class::get_kangaroo_population(){
+	return kangroo_population;
+}
 Kangaroo_Class::~Kangaroo_Class() {
 
 };

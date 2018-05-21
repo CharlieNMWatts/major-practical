@@ -14,6 +14,14 @@ void Dingo_Class::eat() {
 
 }
 
+void Dingo_Class::set_dingo_population(int d){
+	dingo_population = d;
+}
+
+int Dingo_Class::get_dingo_population(){
+	return dingo_population;
+}
+
 Dingo_Class::~Dingo_Class() {
 
 };
