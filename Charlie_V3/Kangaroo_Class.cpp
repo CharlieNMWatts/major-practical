@@ -10,7 +10,7 @@ Kangaroo_Class::Kangaroo_Class() : Prey_Class() { // Constructor
 
 
 };
-void Prey_Class::eat() {
+void Kangaroo_Class::eat() {
 
 };
 

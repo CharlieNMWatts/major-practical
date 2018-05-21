@@ -12,7 +12,7 @@ Rabbit_Class::Rabbit_Class() : Prey_Class() { //contructor
 	
 
 };
-void Prey_Class::eat() { 
+void Rabbit_Class::eat() { 
 };
 
 Rabbit_Class::~Rabbit_Class() {

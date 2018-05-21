@@ -10,7 +10,7 @@ Dingo_Class::Dingo_Class() : Predator_Class() {
 	
 };
 
-void Predator_Class::eat() {
+void Dingo_Class::eat() {
 
 }
 

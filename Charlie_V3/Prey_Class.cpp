@@ -9,9 +9,7 @@ Prey_Class::Prey_Class() :Animal_Class() {
 
 };
 
-void Animal_Class::eat(){
-	printf("Redefintion of eat in Prey_Class\n");
-
+void Prey_Class::eat(){
 
 };
 

@@ -16,7 +16,7 @@ using namespace std;
 
 // }
 
- void Animal_Class::eat() {
+void Animal_Class::eat() {
 	//deliberatly empty
 };
 

@@ -11,7 +11,7 @@ Fox_Class::Fox_Class() :Predator_Class(){
 	
 
 };
-	void Predator_Class::eat(){
+	void Fox_Class::eat(){
 		
 	}
 

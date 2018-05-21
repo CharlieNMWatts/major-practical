@@ -9,7 +9,8 @@ Predator_Class::Predator_Class() {
 
 };
 
-void Predator_Class::eat() {
+void Animal_Class::eat() {
+	printf("redifintion of eat in Predator_Class\n");
 
 };
 

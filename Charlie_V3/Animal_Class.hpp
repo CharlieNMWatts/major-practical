@@ -14,7 +14,7 @@ class Animal_Class
 public:
 	//virtual Animal_Class(){};// removed contructor because of error
 
-		virtual void eat() = 0;
+		virtual void eat();
 		void bread();
 		void die();
 		void set_population(int a);
