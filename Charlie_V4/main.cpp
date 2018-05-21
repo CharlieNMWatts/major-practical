@@ -45,6 +45,7 @@ cin >> kangroo_input_population;
 
 
 
+//not final control loop
 
 
 for (int i = 0; i < time; ++i)
