@@ -8,7 +8,7 @@ using namespace std;
 
 
 void Animal_Class::eat() {
-	
+
 };
 
 
@@ -22,7 +22,7 @@ void Animal_Class::set_population(int pop) {
 	population = pop;
 };
 void Animal_Class::get_population() {
-	
+
 };
 
 

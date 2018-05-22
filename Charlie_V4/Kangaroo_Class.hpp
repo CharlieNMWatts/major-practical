@@ -11,16 +11,16 @@ class Kangaroo_Class:  public Prey_Class
 {
 public:
 	Kangaroo_Class();
-	 void eat();
-	 void die();
-	 void bread();
-	 void set_kangaroo_population(int k);
-	 int get_kangaroo_population();
+	void eat();
+	void die();
+	void bread();
+	void set_kangaroo_population(int k);
+	int get_kangaroo_population();
 	~Kangaroo_Class();
 
 private:
 	int kangroo_population;
-	
+
 };
 
 

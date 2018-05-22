@@ -5,15 +5,15 @@
 #include "Animal_Class.hpp"
 using namespace std;
 
-class Predator_Class: public Animal_Class{
+class Predator_Class: public Animal_Class {
 public:
-    Predator_Class();
-    void eat();
-    void set_predator_population();
-    void get_predator_population();
+	Predator_Class();
+	void eat();
+	void set_predator_population();
+	void get_predator_population();
 
 
-    ~Predator_Class();
+	~Predator_Class();
 protected:
 	int Predator_Population;
 
