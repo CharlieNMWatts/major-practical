@@ -5,7 +5,7 @@
 
 using namespace std;
 
-Predator_Class::Predator_Class() {
+Predator_Class::Predator_Class() :Animal_Class() {
 
 };
 
@@ -14,5 +14,5 @@ void Predator_Class::eat() {
 };
 
 Predator_Class::~Predator_Class() {
-	\
+	
 };

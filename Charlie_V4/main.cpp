@@ -38,7 +38,7 @@ printf("how many rabbits would you like?\n");
 printf("how many kangroos would you like?\n");
 cin >> kangroo_input_population;
  	k.set_kangaroo_population(kangroo_input_population);
-
+d.eat(k);
 
 
 
@@ -55,6 +55,8 @@ for (int i = 0; i < time; ++i)
 	cout << "the current Kangaroo population is " << k.get_kangaroo_population() << endl;
 	cout << "the current Dingo population is " << d.get_dingo_population() << endl;
 	cout << "the cuurent fox population is " << f.get_fox_population() << endl;
+	
+	//k.die();
 
 
 

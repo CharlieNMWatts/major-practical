@@ -7,7 +7,6 @@
 using namespace std;
 
 
-
 void Animal_Class::eat() {
 	
 };
