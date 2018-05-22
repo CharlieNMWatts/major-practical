@@ -26,6 +26,10 @@ int main(){
 
 printf( "How much time would you like?\n");
 cin >> time;
+if(time < 1){
+	cout << "please enter a positive time value" << endl;
+	cin >> time;
+}
 printf("how many Foxes would you like?\n");
  cin >> fox_input_popualtion;
  f.set_fox_population(fox_input_popualtion);
@@ -48,6 +52,8 @@ cin >> kangroo_input_population;
 #pragma acc kernals
 //not final control loop
 //need another if statemet to make sure user enters enough time
+
+
 
 for (int i = 2; i < (time + 2); ++i)
 {

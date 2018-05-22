@@ -1,1 +1,13 @@
-./animal_simulator < input.txt >> output.txt
+./animal_simulator < input00.txt >> output.txt
+
+./animal_simulator < input01.txt >> output.txt
+
+./animal_simulator < input02.txt >> output.txt
+
+./animal_simulator < input03.txt >> output.txt
+
+./animal_simulator < input04.txt >> output.txt
+
+./animal_simulator < input05.txt >> output.txt
+
+./animal_simulator < input06.txt >> output.txt
