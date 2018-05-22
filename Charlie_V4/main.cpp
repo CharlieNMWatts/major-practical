@@ -44,7 +44,8 @@ cin >> kangroo_input_population;
 
 
 
-#pragma omp parallel
+//#pragma omp parallel
+#pragma acc kernals
 //not final control loop
 //need another if statemet to make sure user enters enough time
 
