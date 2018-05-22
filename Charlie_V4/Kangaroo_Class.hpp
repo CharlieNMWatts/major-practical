@@ -12,6 +12,7 @@ class Kangaroo_Class:  public Prey_Class
 public:
 	Kangaroo_Class();
 	 void eat();
+	 void die();
 	 void set_kangaroo_population(int k);
 	 int get_kangaroo_population();
 	~Kangaroo_Class();

@@ -10,9 +10,13 @@ Kangaroo_Class::Kangaroo_Class() : Prey_Class() { // Constructor
 
 
 };
-void Kangaroo_Class::eat() {
+ void Kangaroo_Class::eat() {
 
 };
+
+void Kangaroo_Class::die(){
+	kangroo_population--;
+}
 
 void Kangaroo_Class::set_kangaroo_population(int k){
 	kangroo_population = k;

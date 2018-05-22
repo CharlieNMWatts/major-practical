@@ -12,7 +12,7 @@ using namespace std;
 class Animal_Class
 {
 public:
-	//virtual Animal_Class(){};// removed contructor because of error
+	// Animal_Class(){};// removed contructor because of error
 
 		virtual void eat();
 		void bread();

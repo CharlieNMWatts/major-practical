@@ -9,8 +9,8 @@ class Predator_Class: public Animal_Class{
 public:
     Predator_Class();
     void eat();
-    void set_population();
-    void get_population();
+    void set_predator_population();
+    void get_predator_population();
 
 
     ~Predator_Class();
