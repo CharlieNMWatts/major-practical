@@ -44,17 +44,13 @@ cin >> kangroo_input_population;
 
 
 
-
+#pragma omp parallel
 //not final control loop
 //need another if statemet to make sure user enters enough time
 
 for (int i = 2; i < (time + 2); ++i)
 {
-	cout << "it is day: "<< (i - 1) << endl;
-	cout << "the current Rabbit population is " << r.get_rabbit_population() << endl;
-	cout << "the current Kangaroo population is " << k.get_kangaroo_population() << endl;
-	cout << "the current Dingo population is " << d.get_dingo_population() << endl;
-	cout << "the cuurent fox population is " << f.get_fox_population() << endl;
+	
 	
 	if(d.get_dingo_population() >= 2){ //checks that digo popualtion is 2 or more 
 		
@@ -112,7 +108,11 @@ for (int i = 2; i < (time + 2); ++i)
        
 
 }
-
+//cout << "it is day: "<< (i - 1) << endl;
+	cout << "the current Rabbit population is " << r.get_rabbit_population() << endl;
+	cout << "the current Kangaroo population is " << k.get_kangaroo_population() << endl;
+	cout << "the current Dingo population is " << d.get_dingo_population() << endl;
+	cout << "the cuurent fox population is " << f.get_fox_population() << endl;
 
 
 
