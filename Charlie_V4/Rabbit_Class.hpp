@@ -13,7 +13,9 @@ class Rabbit_Class :  public Prey_Class
 public:
 	Rabbit_Class();
 	 void eat();
-	 
+	 void bread();
+	 void die();
+
 	 void set_rabbit_population(int r);
 	 int get_rabbit_population();
 

@@ -13,6 +13,7 @@ class Dingo_Class :  public Predator_Class
 public:
 	Dingo_Class();
 		 void eat(Kangaroo_Class k);
+		 void bread();
 
 		 
 		 void set_dingo_population(int d);

@@ -12,6 +12,7 @@ class Fox_Class :   Predator_Class
 public:
 	Fox_Class();
 		 void eat();
+		 void bread();
 		 void set_fox_population(int f);
 		 int get_fox_population();
 	~Fox_Class();

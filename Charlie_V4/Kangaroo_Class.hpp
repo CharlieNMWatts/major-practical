@@ -13,6 +13,7 @@ public:
 	Kangaroo_Class();
 	 void eat();
 	 void die();
+	 void bread();
 	 void set_kangaroo_population(int k);
 	 int get_kangaroo_population();
 	~Kangaroo_Class();
